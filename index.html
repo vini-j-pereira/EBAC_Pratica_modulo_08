@@ -18,7 +18,7 @@
         </header>
         <form id="formContatos">
             <input type="text" placeholder="Nome do contato:" id="NomeContato" required>
-            <input type="tel" placeholder="Numero do telefone:" id="NumeroContato" required>
+            <input type="tel" placeholder="Telefone: 99999-9999 " id="NumeroContato" pattern="^[0-9]{5}-[0-9]{4}$" required>
             <Button type="submit">Adicionar</Button>
         </form>
             <table>
