@@ -2,13 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(228, 226, 226);
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
 }
 
 header img {
@@ -16,23 +20,53 @@ header img {
     margin-right: 10px;
 }
 
-form {
+.container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 10px;
-    margin-top: 20px;
+    padding: 50px 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    max-width: 960px;
+    width: 100%;
+    margin: 100px auto;
 
 }
 
-table {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+form {
     margin-top: 20px;
+    display: flex;
+    max-width: 470px;
+    width: 100%;
+    justify-content: space-between;
     
 }
 
-table tr th {
-    padding: 0 50px;
+form button {
+    border: none;
+    background-color: rgb(185, 186, 255);
+    padding: 3px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    transition: .2s;
+}
+
+form button:hover {
+    background-color: rgb(103, 118, 255);
+}
+
+table {
+    margin-top: 10px;
+    max-width: 480px;
+    width: 100%;
+    background-color: rgb(146, 151, 255);
+    border-radius: 5px;
+    color: #fff;
+}
+
+table td {
+    text-align: center;
+
 }
